@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "293142066737",
+    "firebase_url": "https://twoclicks-87c2b.firebaseio.com",
+    "project_id": "twoclicks-87c2b",
+    "storage_bucket": "twoclicks-87c2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293142066737:android:1f7b725a5044d3e4",
+        "android_client_info": {
+          "package_name": "team.unicorn.vsb.twoclicks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293142066737-kkf6vldog1ghtrhrmdd54itkqcdpsj17.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuN8Oj_gk-XxyYSYs03TKZhGEBSmWRsXA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

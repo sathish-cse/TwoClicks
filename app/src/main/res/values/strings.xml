@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TwoClicks</string>
+
+    <!-- LogInActivity-->
+    <string name="login_error_message">Please make sure you enter a username and password!</string>
+    <string name="login_error_title">Checking</string>
+    <string name="error_incorrect_email_pass">Provide correct email and password with more than 6 characters.</string>
+</resources>

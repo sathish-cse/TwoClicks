@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lab_selection"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@mipmap/splash_bg"
+    tools:context=".activity.SelectUserActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <team.unicorn.vsb.twoclicks.activity.customfonts.CustomFontsTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:id="@+id/account_text"
+            android:textColor="@color/colorPrimary"
+            android:text="Select User"/>
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:src="@drawable/employe"
+            android:layout_marginTop="20dp"
+            android:id="@+id/employe"/>
+
+        <team.unicorn.vsb.twoclicks.activity.customfonts.CustomFontsTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Job Card Holders"/>
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:src="@drawable/po"
+            android:layout_marginTop="20dp"
+            android:id="@+id/po"/>
+
+        <team.unicorn.vsb.twoclicks.activity.customfonts.CustomFontsTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:gravity="center"
+            android:text="Program Officer"/>
+
+        <ImageView
+            android:layout_width="127dp"
+            android:layout_height="127dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/gp"
+            android:id="@+id/gp"/>
+
+        <team.unicorn.vsb.twoclicks.activity.customfonts.CustomFontsTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:gravity="center"
+            android:text="Grama Panchayath Officer"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
